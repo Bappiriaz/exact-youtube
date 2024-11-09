@@ -1,0 +1,135 @@
+
+.profile_area{
+    width:82%;
+    margin-top: 40px;
+    
+}
+.sidebar_new{
+
+   width:15%;
+   height: 100vh;
+   overflow:scroll;
+}
+
+.profile_pic_jone{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 168px;
+
+}
+
+.profile_pic_area{
+    display: flex;
+    gap:10px;
+}
+
+.profile_username{
+
+    h2{
+        font-family: "Roboto", serif;
+        font-weight:Regular;
+        color:#000000;
+        font-size: 26px;
+        padding:6px 0px;
+    }
+    p{
+        font-family: "Roboto", serif;
+        font-weight:Regular;
+        color:#626362;
+        font-size: 14px;
+       
+
+    }
+
+}
+
+.profile_pic_button{
+    
+    a{
+        padding:14px 22px;
+        background-color:#065FD4;
+        font-family: "Roboto", serif;
+        font-weight:Medium;
+        color:#FFFFFF;
+        font-size: 12px;
+        text-decoration: none;
+        border-radius: 16.14px;
+
+    }
+}
+.profle_all_menus{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    a{
+        font-family: "Roboto", serif;
+        font-weight:Medium;
+        color:#4D4D4D;
+        font-size: 14px;
+        text-decoration: none;
+        padding-bottom: 13px;
+
+    }
+
+    a:hover{
+        border-bottom: 3px solid #606060;
+        transition-duration:3s;
+    }
+}
+
+.profile_menus{
+    margin-top:40px;
+}
+
+.related_video_areas{
+    display: flex;
+    gap:20px;
+}
+
+.profile_feature_videos{
+    margin-top: 30px;
+    border-bottom: 2px solid #888888;
+}
+.playbutton_area{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding:20px 0px;
+
+    h2{
+        font-family: "Roboto", serif;
+        font-weight:Regular;
+        color:#000000;
+        font-size: 15px;
+
+    }
+
+}
+
+.play_whole_area{
+    display: flex;
+    align-items:center;
+    gap:10px;
+
+    h2{
+        font-family: "Roboto", serif;
+        font-weight:Regular;
+        color:#000000;
+        font-size: 15px;
+
+
+    }
+}
+
+.profile_videos{
+
+    display:flex;
+   flex-wrap: wrap;
+
+   justify-content:space-around;
+
+  
+
+}
